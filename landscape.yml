@@ -90,6 +90,7 @@ landscape:
           - item:
             name: Zowe
             homepage_url: 'https://zowe.org'
+            description: 'Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.'
             repo_url: 'https://github.com/zowe/api-layer'
             logo: zowe.svg
             project: graduated
@@ -125,6 +126,12 @@ landscape:
             repo_url: 'https://github.com/IBM/IBM-Z-zOS'
             logo: zos-tools.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: zUID
+            homepage_url: 'https://github.com/walmartlabs/zUID'
+            repo_url: 'https://github.com/walmartlabs/zUID'
+            logo: zuid.svg
+            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
       - subcategory:
         name: Other
         items:
@@ -167,6 +174,13 @@ landscape:
             homepage_url: 'https://www.ibm.com/us-en/marketplace/db2-devops-experience'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             twitter: 'https://twitter.com/ibmz'
+          - item:
+            name: IBM MQ for z/OS Plug-in for Zowe CLI - API Mediation Layer
+            logo: omp_ibm-mq-for-cli.svg
+            homepage_url: 'https://www.ibm.com/products/mq/zos'
+            #repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
       - subcategory:
         name: App Framework
         items:
@@ -202,6 +216,13 @@ landscape:
             description: "IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions."
             logo: omp_ibm-sas.svg
             homepage_url: "https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/5/897/ENUS219-085/index.html&request_locale=en"
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+          - item:
+            name: IBM MQ for z/OS Plug-in for Zowe CLI - App Framework
+            logo: omp_ibm-mq-for-cli.svg
+            homepage_url: 'https://www.ibm.com/products/mq/zos'
+            #repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             twitter: 'https://twitter.com/ibmz'
       - subcategory:
@@ -270,6 +291,13 @@ landscape:
             repo_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             twitter: 'https://twitter.com/ibmz'
+          - item:
+            name: IBM MQ for z/OS Plug-in for Zowe CLI - CLI
+            logo: omp_ibm-mq-for-cli.svg
+            homepage_url: 'https://www.ibm.com/products/mq/zos'
+            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
   - category:
     name: Supported Projects
     subcategories:
@@ -314,12 +342,14 @@ landscape:
           - item:
             name: LuaJIT
             logo: luajit.svg
+            description: "LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language. It may be embedded or used as a general-purpose, stand-alone language."
             homepage_url: 'http://luajit.org/'
             repo_url: 'https://github.com/siddhesh/LuaJIT'
             crunchbase: 'https://www.crunchbase.com/organization/linaro'
           - item:
             name: PostgreSQL
             logo: postgresql.svg
+            description: "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
             homepage_url: 'https://www.postgresql.org/'
             repo_url: 'https://github.com/postgres/postgres'
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
@@ -338,12 +368,12 @@ landscape:
             description: 'ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not part of the CentOS organization.'
           - item:
             name: Red Hat Enterprise Linux
-            logo: suse.svg
+            logo: rhel.svg
             homepage_url: 'https://www.redhat.com/en/store/red-hat-enterprise-linux-ibm-system-z#?sku=RH0416249'
-            crunchbase: 'https://www.crunchbase.com/organization/suse'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: SUSE Linux Enterprise Server
-            logo: rhel.svg
+            logo: suse.svg
             homepage_url: 'https://www.suse.com/products/systemz/'
             crunchbase: 'https://www.crunchbase.com/organization/suse'
           - item:

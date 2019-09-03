@@ -1,18 +1,19 @@
 global:
   name: Open Mainframe Project Interactive Landscape
   short_name: Open Mainframe Project
-  repo: openmainframeproject/landscape
+  repo: openmainframeproject/omp-landscape
   website: 'https://landscape.openmainframeproject.org'
-  short_domain: l.penmainframeproject.org
+  short_domain: l.openmainframeproject.org
   company_url: 'https://openmainframeproject.org'
-  email: info@penmainframeproject.org
+  email: info@openmainframeproject.org
   meta:
     title: Open Mainframe Project Landscape
     fb_admin: alex.contini.94
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
     twitter: '@OpenMFProject'
-    google_site_verification: x3QPMhFwxg1ZMS9tlhhgwIJKokbEkt1zByMLMXiqnds
+    google_site_verification: a2XVEjwm7VZNRuQ5wY3uDlwLXvxUzodGsIxwav3opvA
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
+  membership: Open Mainframe Project Member Company
   flags:
     cncf_sandbox: false
     companies: Open Mainframe Project Member Company
@@ -54,19 +55,19 @@ relation:
       label: Non-Open Mainframe Project Member Products/Projects
       url: 'no'
 membership:
-  platinum:
+  Platinum:
     name: Open Mainframe Project
     label: Platinum Member
     funding: Platinum
-  silver:
+  Silver:
     name: Open Mainframe Project
     label: Silver Member
     funding: Silver
-  academic:
+  Academic Institution:
     name: Open Mainframe Project
     label: Academic Institution Member
     funding: Academic Institution
-  associate:
+  Associate:
     name: Open Mainframe Project
     label: Associate Member
     funding: Associate
@@ -106,8 +107,8 @@ big_picture:
     fullscreen_header: See the interactive landscape at l.openmainframeproject.org
     method: getGroupedItemsForCncfBigPicture
     size:
-      width: 1115
-      height: 670
+      width: 1155
+      height: 740
     fullscreen_size:
       width: 1155
       height: 740
